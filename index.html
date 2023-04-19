@@ -8,16 +8,18 @@
     <link rel="stylesheet" href="https://pyscript.net/latest/pyscript.css" />
     <script defer src="https://pyscript.net/latest/pyscript.js"></script>
     <py-env>
-        -paths:
-            -/main.py
+        - random
+        - paths:
+            - ./main.py
     </py-env>
 </head>
 <body>
     <py-script>
-        num=int(input("Enter the number: "))
+        from main import typing
+        <!-- num=int(input("Enter the number: "))
         for i in range(1,num+1):
             num=i*"*"
-            print(num)
+            print(num) -->
     </py-script>
 </body>
 </html>
