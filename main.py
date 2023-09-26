@@ -12,3 +12,4 @@ def typing():
             break
         else:
             print("Try again!")
+print("thank you")
