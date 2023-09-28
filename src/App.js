@@ -3,7 +3,7 @@ import Intro from './components';
 import "./app.scss"
 const App = () => {
   return (
-    <div><Intro/></div>
+    <div><Intro/> displaying</div>
   )
 }
 
