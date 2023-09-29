@@ -1,8 +1,12 @@
 import React from 'react'
-
+import "./style.scss"
+import cloud from "../images/cloud-soft.png"
 const Intro = () => {
   return (
-    <p>Intro page 1</p>
+    <div className="Intro-section">
+      <div className="vector-bg" id="parallax"></div>
+      <img src={cloud} alt="" className='cloud-soft'/>
+    </div>
   )
 }
 
