@@ -1,11 +1,12 @@
 import React from 'react';
 import "./style.scss";
-import { BsArrowRightShort } from "react-icons/bs";
+import Arrow from "../arrow";
+
 
 const CallToAction = ({text}) => {
   return <div className="call-to-action">
     <span className="text">{text}</span>
-    <span className="arrow-icon"><BsArrowRightShort/></span>
+    <Arrow/>
   </div>
 }
 
