@@ -6,6 +6,7 @@ const Section = ({ children, id, className, title, background }) => {
         ${background === "dark" ? "dark" : "light"}`
         }>
         
+        
         <div className="content">
             {title && (
                 <div className="section-title">
