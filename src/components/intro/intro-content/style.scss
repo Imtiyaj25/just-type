@@ -57,13 +57,14 @@
                 }
             }
             .highlights{
-                position: relative;
+                position: absolute;
                 border-radius: 6px;
-                background: white;
+                @include glassmorphism-effect;
                 .icon{
                     width: 55px;
                     height: 55px;
                     min-width: 55px;
+                    display: flex;
                     align-items: center;
                     justify-content: center;
                     border-radius: 50%;
@@ -80,7 +81,7 @@
                     }
                 }
                 &.horizontal{
-                    width: 200px;
+                    width: 208px;
                     height: 95px;
                     display: flex;
                     align-items: center;
@@ -97,7 +98,8 @@
                     }
                 }
                 &.verticle{
-                    width: 135px;height: 165px;
+                    width: 135px;
+                    height: 165px;
                     min-height: 165px;
                     display: flex;
                     flex-direction: column;
