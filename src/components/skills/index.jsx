@@ -16,9 +16,7 @@ const Skills = () => {
           <h2>Skills</h2>
           <p>
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Non
-            tempore, ad aliquam laudantium animi, maiores, hic sunt corrupti
-            ipsam nisi cupiditate praesentium sint quis modi excepturi neque
-            magnam tempora cumque!
+            tempore, ad aliquam laudantium animi, magnam tempora cumque!
           </p>
           <CallToAction text="Download CV" icon={<AiOutlineCloudDownload/>}/>
         </div>
