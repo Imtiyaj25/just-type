@@ -13,7 +13,7 @@ const Skills = () => {
           <img src={TechIcons} alt="" />
         </div>
         <div className="right-col">
-          <h2>Skills</h2>
+          <h2>Skills </h2>
           <p>
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Non
             tempore, ad aliquam laudantium animi, magnam tempora cumque!
