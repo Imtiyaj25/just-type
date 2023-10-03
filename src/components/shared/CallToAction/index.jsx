@@ -3,10 +3,10 @@ import "./style.scss";
 import Arrow from "../arrow";
 
 
-const CallToAction = ({text}) => {
+const CallToAction = ({text, action, icon}) => {
   return <div className="call-to-action">
     <span className="text">{text}</span>
-    <Arrow/>
+    {icon ? <div className="icon">{icon}</div> : <Arrow/>}
   </div>
 }
 

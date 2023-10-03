@@ -1,9 +1,13 @@
 import React from 'react'
 import Intro from "../src/components/intro"
+import Skills from './components/skills';
 import "./app.scss"
 const App = () => {
   return (
-    <div><Intro/></div>
+    <div>
+      <Intro/>
+      <Skills/>
+    </div>
   )
 }
 
