@@ -6,10 +6,10 @@
     display: flex;
     justify-content: center;
     &.dark{
-        background-color: $black;
+        background: $black;
     }
     &.light{
-        background-color: $black-light;
+        background: $black-light;
     }
     .content{
         width: 1200px;
