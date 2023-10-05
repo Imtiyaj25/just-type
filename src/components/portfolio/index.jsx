@@ -5,7 +5,9 @@ import "./style.scss";
 const Portfolio = () => {
   return (
     <Section id="portfolio" title="Check my portfolio" background="light">
-        <div className="portfolio-content-wrapper"></div>
+        <div className="portfolio-content-wrapper">
+          <p>check my portfolio</p>
+        </div>
     </Section>
   )
 }
