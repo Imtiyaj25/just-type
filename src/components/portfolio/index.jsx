@@ -6,7 +6,7 @@ const Portfolio = () => {
   return (
     <Section id="portfolio" title="Check my portfolio" background="light">
         <div className="portfolio-content-wrapper">
-          <p>check my portfolio</p>
+          <p>Check my portfolio</p>
         </div>
     </Section>
   )
