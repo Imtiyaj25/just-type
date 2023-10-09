@@ -30,7 +30,7 @@ const IntroContent = () => {
           <CallToAction text="Contact me"/>
         </div>
         <div className="right-col">
-            <img src={girl} alt="" />
+            {/* <img src={girl} alt="" /> */}
             <div className="highlights horizontal">
                 <div className="icon">
                     <BsAwardFill/>
