@@ -67,14 +67,14 @@ const Footer = () => {
                         color="#0A66C2"
                         icon={<FaLinkedinIn />}
                     />
-                    <SocialIcon
+                    {/* <SocialIcon
                         color="#f2740d"
                         icon={<FaStackOverflow />}
                     />
                     <SocialIcon
                         color="#E84C88"
                         icon={<FaInstagram />}
-                    />
+                    /> */}
                 </div>
                 <div className="bottom-bar">
                     <div className="copyright-text">
