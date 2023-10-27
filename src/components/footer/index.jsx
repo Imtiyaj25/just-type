@@ -64,7 +64,7 @@ const Footer = () => {
                         link="https://github.com/Imtiyaj25"
                     />
                     <SocialIcon
-                        // color="#0A66C2"
+                        color="#0A66C2"
                         icon={<FaLinkedinIn />}
                     />
                     {/* <SocialIcon
