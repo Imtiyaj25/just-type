@@ -29,7 +29,7 @@ const Footer = () => {
                         className="footer-menu-item"
                         onClick={() => scrollToSection("skills")}
                     >
-                        Skills
+                        Skill
                     </li>
                     <li
                         className="footer-menu-item"
